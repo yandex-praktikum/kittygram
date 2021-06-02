@@ -1,6 +1,6 @@
 # API function view lesson
-from django.urls import include, path
 from cats.views import cat_list
+from django.urls import include, path
 
 urlpatterns = [
    path('cats/', cat_list),
